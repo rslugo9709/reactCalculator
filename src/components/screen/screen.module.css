@@ -1,0 +1,20 @@
+.pantalla{
+    height: 15%;
+    width: 90%;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    padding: 11px;
+    padding-top: 30px;
+    background-color: rgb(247, 235, 235);
+    border: 1px solid #888;
+    box-shadow: -1px 2px 2px 2px white;
+
+}
