@@ -30,7 +30,8 @@
 
 @media screen and (max-width: 500px){
     .container{
-        width: 50%;
+        width: 60%;
+
     }
     .row{
         margin: 2%;
@@ -41,6 +42,7 @@
 @media screen and (max-width: 300px){
     .container{
         width: 70%;
+ 
         
     }
     .row{
@@ -48,5 +50,37 @@
         width: 100%;
 
     }
+}
+
+
+@media screen and (max-height: 500px){
+    .container{
+        height: 60%;
+        
+    }
+
+}
+
+@media screen and (min-height: 700px) and (max-width: 300px) {
+    .container{
+        height: 45%;
+        
+    }
+
+}
+
+@media screen and (min-height: 500px) and (max-width: 500px) {
+    .container{
+        height: 60%;
+        
+    }
+
+}
+@media screen and (min-height: 700px) and (max-width: 500px) {
+    .container{
+        height: 50%;
+        
+    }
+
 }
 
