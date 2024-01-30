@@ -15,12 +15,15 @@ function App() {
   }
   const agregar = (valor) =>{
     sInput(input+valor)
-    console.log(input)
+    //console.log(input)
+  }
+  const borrar = () =>{
+    sInput(input.slice(0, -1));
   }
   return (
     <div className='fondo'>
       <h1>My React calculator</h1>
-      <Container limpiar={limpiar} input={input} calcular={calcular} agregar={agregar}/> 
+      <Container borrar={borrar} limpiar={limpiar} input={input} calcular={calcular} agregar={agregar}/> 
     </div>
   )
 }

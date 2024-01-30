@@ -1,4 +1,4 @@
-.number{
+.result{
     height: 100%;
     display: flex;
     flex: 1 1; /*Sirve para definir entre cuanto se puede distribuir el ancho segun el numero de elementos que haya */
@@ -17,8 +17,8 @@
 }
 
 
-.number:hover{
+.result:hover{
     color: rgb(41, 16, 48);
     background-color: rgb(207, 206, 206);
-    border-color: rgb(233, 167, 167);
+    border-color: rgb(47, 18, 54);
 }

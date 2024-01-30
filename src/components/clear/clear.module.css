@@ -1,4 +1,4 @@
-.number{
+.clear{
     height: 100%;
     display: flex;
     flex: 1 1; /*Sirve para definir entre cuanto se puede distribuir el ancho segun el numero de elementos que haya */
@@ -6,8 +6,8 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-size: 1.3rem;
-    background-color: rgb(105, 24, 58);
+    font-size: 1rem;
+    background-color: rgb(29, 24, 105);
     cursor:pointer;
     margin: 2%;
     border: 2px solid white;
@@ -17,7 +17,7 @@
 }
 
 
-.number:hover{
+.clear:hover{
     color: rgb(41, 16, 48);
     background-color: rgb(207, 206, 206);
     border-color: rgb(233, 167, 167);
