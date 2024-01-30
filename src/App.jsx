@@ -22,8 +22,10 @@ function App() {
   }
   return (
     <div className='fondo'>
-      <h1>My React calculator</h1>
+      <h1>My React Calculator</h1>
+      
       <Container borrar={borrar} limpiar={limpiar} input={input} calcular={calcular} agregar={agregar}/> 
+      <h2><i>Created by: Raul Lugo</i></h2>
     </div>
   )
 }

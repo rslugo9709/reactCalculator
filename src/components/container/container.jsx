@@ -15,7 +15,7 @@ function Container(props){
             <Screen input= {props.input} />
 
             <div className={style.row}>
-                <Clear valor="limpiar" limpiar={props.limpiar}/>
+                <Clear valor="Limpiar" limpiar={props.limpiar}/>
                 <Delete valor="C" borrar={props.borrar}/>
             </div>
             <div className={style.row}>
